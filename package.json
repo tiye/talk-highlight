@@ -1,0 +1,30 @@
+{
+  "name": "talk-highlight",
+  "version": "0.0.0",
+  "description": "convert text to HTML for forums",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jiyinyiyong/talk-highlight.git"
+  },
+  "keywords": [
+    "convert",
+    "markup"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "author": "jiyinyiyong",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jiyinyiyong/talk-highlight/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6.3",
+    "calabash": "0.0.4"
+  }
+}
